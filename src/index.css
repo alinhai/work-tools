@@ -1,0 +1,61 @@
+html, body, #root, .ant-layout {
+    height: 100%;
+    margin: 0;
+}
+.demo-logo-vertical {
+    margin: 8px 4px 4px;
+}
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background: rgba(255,255,255,.2);
+    border-radius: 10px;
+    margin: 16px;
+}
+.logo-wrap img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo-wrap .title {
+    color: #fff !important;
+    white-space: nowrap;
+}
+.empty .ant-empty-description {
+    color: #fff;
+}
+.ant-typography {
+    margin: 0.5em;
+}
+.site-layout {
+    margin-left: 200px;
+    height: max-content;
+    transition: all 0.2s linear;
+}
+.content {
+    min-height: calc(100vh - 139px);
+    flex: none;
+    margin: 24px 16px 0px;
+    padding: 24px;
+    text-align: center;
+}
+.sider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.ant-layout-sider-collapsed + .site-layout {
+    margin-left: 80px;
+}
+.ant-layout-sider-collapsed .logo-wrap {
+    background: rgba(255,255,255, 0);
+}
+.ant-layout-sider-collapsed .logo-wrap .title,
+.ant-layout-sider-collapsed .ant-input-search {
+    display: none;
+}

@@ -1,0 +1,15 @@
+.name-select .ant-select-arrow {
+    display: none !important;
+}
+.name-img {
+    border: 1px solid #000;
+}
+.img-selected {
+    border-color: #1677ff;
+}
+.ant-col {
+    margin: 8px 0;
+}
+.ant-image-mask {
+    flex-direction: column;
+}
