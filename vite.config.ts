@@ -5,7 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     // assetsInlineLimit: Infinity
-    outDir: 'docs'
+    outDir: 'docs',
+    
   },
+  base: './',
   plugins: [react()],
 })
